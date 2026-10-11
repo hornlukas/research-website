@@ -7,7 +7,7 @@ export const searchSchema = {
   url: 'string',
 } as const;
 
-export type SearchCategory = 'all' | 'blog' | 'paper';
+export type SearchCategory = 'all' | 'paper';
 
 export function createSearchDatabase() {
   return create({ schema: searchSchema, language: 'english' });

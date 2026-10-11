@@ -1,5 +1,13 @@
 export const publications = [
     {
+        "title": "Laying the Foundation",
+        "authors": "Lukas Johannes Horn",
+        "journal": "Springer Vieweg Wiesbaden",
+        "time": "oct 2026",
+        "link": "",
+        "abstract": "As Artificial Intelligence becomes increasingly integrated into modern technology, the tension between data utility and individual privacy intensifies. Privacy-Preserving Machine Learning (PPML) addresses this conflict by utilizing techniques such as Homomorphic Encryption (HE), which enables computation on encrypted data. However, implementing HE in neural networks necessitates the use of functional approximations for complex non-linear operations, introducing errors that may affect model performance. This book investigates the impact of these approximations through a novel simulation framework. By evaluating various network architectures—including Multi-Layer Perceptrons and Convolutional Neural Networks—across multiple datasets, the author analyses the effects of Taylor series, Newton-Raphson, and Chebyshev polynomial approximations, alongside realistic Gaussian noise. The findings reveal that neural networks are inherently resilient to these errors, often maintaining or even improving baseline accuracy. By establishing the necessary precision levels for common activation functions, this work demonstrates the feasibility of efficient homomorphic training, marking a vital advancement for secure and private machine learning."
+    },
+    {
         "title": "Cooking in the dark: Performance",
         "authors": "Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev",
         "journal": "SSP",
@@ -22,14 +30,6 @@ export const publications = [
         "time": "dec 2023",
         "link": "https://doi.org/10.20517/jsss.2023.30",
         "abstract": "Access control, a key feature of digital business models, such as streaming, relies on the implementation of encryption schemes. The diverse use of encryption schemes has led to the development of schemes with a variety of properties. This variety and a lack of comprehensive overview make it difficult for developers to select an appropriate scheme. To bridge this gap, we envision a cryptography encyclopedia. In this survey, we create a sub-encyclopedia for attribute-based encryption (ABE) schemes. More specifically, we provide an overview of relevant features and performance metrics and a taxonomy for ABE schemes. We also perform a performance and feature evaluation of 42 ABE schemes and apply our proposed topology to these approaches. \\%The content related to Section in the body of this document is not displayed in the PDF. Please confirm the addition of Section numbers or paragraph names."
-    },
-    {
-        "title": "Laying the Foundation",
-        "authors": "Lukas Johannes Horn",
-        "journal": "Springer Vieweg Wiesbaden",
-        "time": "2026",
-        "link": "",
-        "abstract": "As Artificial Intelligence becomes increasingly integrated into modern technology, the tension between data utility and individual privacy intensifies. Privacy-Preserving Machine Learning (PPML) addresses this conflict by utilizing techniques such as Homomorphic Encryption (HE), which enables computation on encrypted data. However, implementing HE in neural networks necessitates the use of functional approximations for complex non-linear operations, introducing errors that may affect model performance. This book investigates the impact of these approximations through a novel simulation framework. By evaluating various network architectures—including Multi-Layer Perceptrons and Convolutional Neural Networks—across multiple datasets, the author analyses the effects of Taylor series, Newton-Raphson, and Chebyshev polynomial approximations, alongside realistic Gaussian noise. The findings reveal that neural networks are inherently resilient to these errors, often maintaining or even improving baseline accuracy. By establishing the necessary precision levels for common activation functions, this work demonstrates the feasibility of efficient homomorphic training, marking a vital advancement for secure and private machine learning."
     },
     {
         "title": "Performance Impact",

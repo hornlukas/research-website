@@ -7,31 +7,40 @@ interface Profile {
 }
 
 export const profile: Profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	fullName: 'Lukas Johannes Horn',
+	title: 'Doctoral Researcher',
+	institute: 'University of Würzburg',
+	author_name: 'Lukas Horn', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
-	],
+  {
+    title: 'Privacy-Preserving Machine Learning',
+    description: 'Enabling privacy-preserving machine learning and artificial intelligence models through the application of homomorphic encryption, functional encryption, and secure multiparty computation.',
+    field: 'computer-science',
+  },
+  {
+    title: 'Performance Benchmarking',
+    description: 'Conducting performance evaluation and computational profiling of cryptographic schemes and privacy-preserving applications.',
+    field: 'computer-science',
+  },
+],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
-	x: 'https://www.x.com/',
+	email: 'lukas.horn@uni-wuerzburg.de',
+	linkedin: 'https://www.linkedin.com/in/horn-lukas/',
+	x: '',
 	bluesky: '',
-	github: '',
+	github: 'https://github.com/hornlukas',
 	gitlab: '',
-	scholar: '',
+	scholar: 'https://scholar.google.de/citations?user=BsDYCYsAAAAJ&hl',
 	inspire: '',
 	arxiv: '',
-	orcid: '',
+	orcid: 'https://orcid.org/0009-0004-4959-1371',
 }
 
 export const template = {
-	website_url: 'https://localhost:4321', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
+	website_url: 'https://research.lukas-horn.de', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
 	menu_left: false,
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
@@ -42,7 +51,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
-	default_image: '/images/astro-academia.png',
+	default_title: 'Lukas Horn',
+	default_description: 'Academic website of Lukas Horn.',
+	default_image: '/src/assets/profile_pictures.jpg',
 }

@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { insertMultiple, save } from 'zbsearch';
-import { publications } from '@/data/cv';
+import { publications } from '@/data/publications';
 import { createSearchDatabase } from '@/lib/search';
 import { paperSearchUrl } from '@/lib/search-records';
 

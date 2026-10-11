@@ -56,7 +56,7 @@ export const skills = [
 export const publications = [
     {
         title: 'Homomorphic Approximation of Non-Linear Activation Functions Using the CKKS Cryptosystem of the OpenFHE Library',
-        authors: 'Engel, Simon and Prantl, Thomas and Horn, Lukas and Bonilla, Rafael and Kounev, Samuel',
+        authors: 'Simon Engel, Thomas Prantl, Lukas Horn, Rafael Bonilla, Samuel Kounev',
         journal: 'Discover Artificial Intelligence',
         time: 'aug 2026',
         link: 'https://doi.org/10.1007/s44163-026-01915-8',
@@ -64,7 +64,7 @@ export const publications = [
     },
     {
         title: 'Laying the Foundation for Homomorphic Training of Neural Networks',
-        authors: 'Horn, Lukas Johannes',
+        authors: 'Lukas Horn',
         journal: 'Springer Vieweg Wiesbaden',
         time: '2026',
         link: '',
@@ -72,7 +72,7 @@ export const publications = [
     },
     {
         title: 'Classification in the Dark: Performance Insights and Novel Methods for Homomorphic Binary Networks',
-        authors: 'Lukas Horn and Lennart Svoboda and Simon Engel and Thomas Prantl and Samuel Kounev',
+        authors: 'Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev',
         journal: 'Wahc 2026',
         time: '2026',
         link: '',
@@ -80,7 +80,7 @@ export const publications = [
     },
     {
         title: 'Cooking in the Dark: Performance Evaluation of Matrix-Vector Operations in Neural Networks under Homomorphic Encryption',
-        authors: 'Horn, Lukas and Svoboda, Lennart and Engel, Simon and Prantl, Thomas and Kounev, Samuel',
+        authors: 'Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev',
         journal: 'Ssp 2026',
         time: '2026',
         link: '',
@@ -88,7 +88,7 @@ export const publications = [
     },
     {
         title: 'De Bello Homomorphico: Investigation of the Extensibility of the OpenFHE Library with Basic Mathematical Functions by Means of Common Approaches Using the Example of the CKKS Cryptosystem',
-        authors: 'Prantl, Thomas and Horn, Lukas and Engel, Simon and Iffländer, Lukas and Beierlieb, Lukas and Krupitzer, Christian and Bauer, André and Sakarvadia, Mansi and Foster, Ian and Kounev, Samuel',
+        authors: 'Thomas Prantl, Lukas Horn, Simon Engel, Lukas Iffländer, Lukas Beierlieb, Christian Krupitzer, André Bauer, Mansi Sakarvadia, Ian Foster, Samuel Kounev',
         journal: 'International Journal of Information Security',
         time: 'apr 2024',
         link: 'https://doi.org/10.1007/s10207-023-00781-0',
@@ -96,7 +96,7 @@ export const publications = [
     },
     {
         title: 'Benchmarking of Secure Group Communication Schemes with Focus on IoT',
-        authors: 'Prantl, Thomas and Bauer, André and Engel, Simon and Horn, Lukas and Krupitzer, Christian and Iffländer, Lukas and Kounev, Samuel',
+        authors: 'Thomas Prantl, André Bauer, Simon Engel, Lukas Horn, Christian Krupitzer, Lukas Iffländer, Samuel Kounev',
         journal: 'Discover Data',
         time: 'may 2024',
         link: 'https://doi.org/10.1007/s44248-024-00010-6',
@@ -104,7 +104,7 @@ export const publications = [
     },
     {
         title: 'Towards a Cryptography Encyclopedia: A Survey on Attribute-Based Encryption',
-        authors: 'Prantl, Thomas and Zeck, Timo and Horn, Lukas and Ffländer, Lukas and Bauer, André and Dmitrienko, Lexandra and Krupitzer, Christian and Kounev, Samuel',
+        authors: 'Thomas Prantl, Timo Zeck, Lukas Horn, Lukas Ffländer, André Bauer, Lexandra Dmitrienko, Christian Krupitzer, Samuel Kounev',
         journal: 'Journal of Surveillance, Security and Safety',
         time: 'dec 2023',
         link: 'https://doi.org/10.20517/jsss.2023.30',
@@ -112,7 +112,7 @@ export const publications = [
     },
     {
         title: 'Oratio Homomorphico: Creating a Lecture for Homomorphic Encryption by Applying Design-Based Research',
-        authors: 'Prantl, Thomas and Schneider, Tobias and Horn, Lukas and Engel, Simon and Iffländer, Lukas and Krupitzer, Christian and Bonilla, Rafael and Kounev, Samuel',
+        authors: 'Thomas Prantl, Tobias Schneider, Lukas Horn, Simon Engel, Lukas Iffländer, Christian Krupitzer, Rafael Bonilla, Samuel Kounev',
         journal: 'Computer Science and Education in Computer Science',
         time: '2027',
         link: 'https://doi.org/10.1007/978-3-032-33123-6_3',
@@ -120,7 +120,7 @@ export const publications = [
     },
     {
         title: 'Performance Analysis of the Homomorphic Implementation of K-Means Using CKKS',
-        authors: 'Prantl, Thomas and Amann, Patrick and Horn, Lukas and Engel, Simon and Bauer, André and Bonilla, Rafael and Benhnini, Anwar and Kounev, Samuel',
+        authors: 'Thomas Prantl, Patrick Amann, Lukas Horn, Simon Engel, André Bauer, Rafael Bonilla, Anwar Benhnini, Samuel Kounev',
         journal: 'Discover Applied Sciences',
         time: 'jul 2026',
         link: 'https://doi.org/10.1007/s42452-026-09088-w',
@@ -128,7 +128,7 @@ export const publications = [
     },
     {
         title: 'Performance Impact Analysis of Homomorphic Encryption: A Case Study Using Linear Regression as an Example',
-        authors: 'Prantl, Thomas and Engel, Simon and Horn, Lukas and Kaiser, Dennis and Iffländer, Lukas and Bauer, André and Krupitzer, Christian and Kounev, Samuel',
+        authors: 'Thomas Prantl, Simon Engel, Lukas Horn, Dennis Kaiser, Lukas Iffländer, André Bauer, Christian Krupitzer, Samuel Kounev',
         journal: 'Information Security Practice and Experience',
         time: '2023',
         link: 'https://doi.org/10.1007/978-981-99-7032-2_17',
@@ -136,7 +136,7 @@ export const publications = [
     },
     {
         title: 'Towards Performance-Oriented Planning and Development of IoT Applications and Networks',
-        authors: 'Prantl, Thomas and Horn, Lukas and Engel, Simon and Meißner, Maximilian and Bonilla, Rafael and Kounev, Samuel',
+        authors: 'Thomas Prantl, Lukas Horn, Simon Engel, Maximilian Meißner, Rafael Bonilla, Samuel Kounev',
         journal: 'Companion of the 17th ACM/SPEC International Conference on Performance Engineering',
         time: 'may 2026',
         link: 'https://doi.org/10.1145/3777911.3799728',
@@ -144,7 +144,7 @@ export const publications = [
     },
     {
         title: 'Privacy-Preserving Training and Inference of CNNs: A Medical Performance Case Study',
-        authors: 'Prantl, Thomas and Schneider, Louis and Engel, Simon and Horn, Lukas and Borst, Vanessa and Krupitzer, Christian and Kounev, Samuel and Bonilla, Rafael I.',
+        authors: 'Thomas Prantl, Louis Schneider, Simon Engel, Lukas Horn, Vanessa Borst, Christian Krupitzer, Samuel Kounev, Rafael I. Bonilla',
         journal: '2025 5th Intelligent Cybersecurity Conference (ICSC)',
         time: 'may 2025',
         link: 'https://doi.org/10.1109/ICSC65596.2025.11140461',
@@ -152,7 +152,7 @@ export const publications = [
     },
     {
         title: 'Quo Vadis CKKS: Comparison of the Realization of Basic Mathematical Functions for the Homomorphic Cryptosystem CKKS Using De Bello and Polynomial Approximations',
-        authors: 'Prantl, Thomas and Horn, Lukas and Engel, Simon and Bauer, André and Kounev, Samuel',
+        authors: 'Thomas Prantl, Lukas Horn, Simon Engel, André Bauer, Samuel Kounev',
         journal: 'Journal of Information Security and Applications',
         time: 'sep 2025',
         link: 'https://doi.org/10.1016/j.jisa.2025.104110',
@@ -160,7 +160,7 @@ export const publications = [
     },
     {
         title: 'Security Analysis of a Decentralized, Revocable and Verifiable Attribute-Based Encryption Scheme',
-        authors: 'Prantl, Thomas and Lauer, Marco and Horn, Lukas and Engel, Simon and Dingel, David and Bauer, André and Krupitzer, Christian and Kounev, Samuel',
+        authors: 'Thomas Prantl, Marco Lauer, Lukas Horn, Simon Engel, David Dingel, André Bauer, Christian Krupitzer, Samuel Kounev',
         journal: 'Proceedings of the 19th International Conference on Availability, Reliability and Security',
         time: 'jul 2024',
         link: 'https://doi.org/10.1145/3664476.3664487',

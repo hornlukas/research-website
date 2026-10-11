@@ -1,6 +1,13 @@
 export const experiences = [
 	{
 		company: 'University of Würzburg',
+		time: '2025 - Present',
+		title: 'Doctoral Researcher',
+		location: 'Würzburg',
+		description: '',
+	},
+	{
+		company: 'University of Würzburg',
 		time: '2020 - 2025',
 		title: 'Student (Research) Assistent',
 		location: 'Würzburg',
@@ -65,7 +72,7 @@ export const publications = [
     },
     {
         title: 'Classification in the Dark: Performance Insights and Novel Methods for Homomorphic Binary Networks',
-        authors: 'Horn, Lukas and Svoboda, Lennart and Engel, Simon and Prantl, Thomas and Kounev, Samuel',
+        authors: 'Lukas Horn and Lennart Svoboda and Simon Engel and Thomas Prantl and Samuel Kounev',
         journal: 'Wahc 2026',
         time: '2026',
         link: '',

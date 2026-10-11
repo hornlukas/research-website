@@ -7,7 +7,7 @@ interface Profile {
 }
 
 export const profile: Profile = {
-	fullName: 'Lukas Johannes Horn',
+	fullName: 'Lukas Horn',
 	title: 'Doctoral Researcher',
 	institute: 'University of Würzburg',
 	author_name: 'Lukas Horn', // Author name to be highlighted in the papers section

@@ -26,7 +26,7 @@ export const publications = [
     {
         "title": "Laying the Foundation for Homomorphic Training of Neural Networks",
         "authors": "Lukas Johannes Horn",
-        "journal": "Springer Vieweg Wiesbaden",
+        "journal": "BestMasters",
         "time": "October 2026",
         "link": "",
         "abstract": "As Artificial Intelligence becomes increasingly integrated into modern technology, the tension between data utility and individual privacy intensifies. Privacy-Preserving Machine Learning (PPML) addresses this conflict by utilizing techniques such as Homomorphic Encryption (HE), which enables computation on encrypted data. However, implementing HE in neural networks necessitates the use of functional approximations for complex non-linear operations, introducing errors that may affect model performance. This book investigates the impact of these approximations through a novel simulation framework. By evaluating various network architectures—including Multi-Layer Perceptrons and Convolutional Neural Networks—across multiple datasets, the author analyses the effects of Taylor series, Newton-Raphson, and Chebyshev polynomial approximations, alongside realistic Gaussian noise. The findings reveal that neural networks are inherently resilient to these errors, often maintaining or even improving baseline accuracy. By establishing the necessary precision levels for common activation functions, this work demonstrates the feasibility of efficient homomorphic training, marking a vital advancement for secure and private machine learning."

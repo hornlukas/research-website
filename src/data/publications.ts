@@ -5,7 +5,7 @@ export const publications = [
         "journal": "Computer Science and Education in Computer Science",
         "time": "2027",
         "link": "https://doi.org/10.1007/978-3-032-33123-6_3",
-        "abstract": ""
+        "abstract": "The ever-increasing pace of digitalization, with its collection of data and the training of artificial intelligence on this data, is bringing the topic of privacy-preserving computing more and more into focus. One promising technology for implementing the privacy-preserving computing paradigm is homomorphic encryption, which has been driven forward in recent years and still holds great potential for improvement in the future. The training of future computer scientists in this field is therefore of crucial importance in order to put this key technology into practice in the future. However, to the best of the authors’ knowledge, there is currently no course that provides students with insights into the theoretical foundations of homomorphic encryption and teaches the practical applicability and extensibility of existing homomorphic cryptosystems. To close this gap, we present our own lecture in this paper, which focuses on the combination of theory and application of homomorphic encryption. We created our lecture material according to the Design-Based Research principle. We held and evaluated our lecture at three German universities. Our lecture evaluations have shown that we have been able to create suitable lecture material on homomorphic encryption and its application, which we would like to share with other lecturers."
     },
     {
         "title": "Cooking in the dark: Performance evaluation of matrix-vector operations in neural networks under homomorphic encryption",
@@ -53,7 +53,7 @@ export const publications = [
         "journal": "Companion of the 17th ACM/SPEC International Conference on Performance Engineering",
         "time": "May 2026",
         "link": "https://doi.org/10.1145/3777911.3799728",
-        "abstract": ""
+        "abstract": "The planning of IoT applications requires consideration of the performance, energy consumption, and security of resource-constrained devices. In particular, n-to-n communication patterns and security mechanisms significantly affect the runtime, energy consumption, and reliability of IoT systems. In this article, we summarize our previous work on the performance and security analysis of secure group communication and attribute-based encryption methods, as well as on the evaluation of publish/subscribe brokers. Based on measurements on real-world IoT hardware, we outline an approach for modeling and combining individual IoT operations to estimate time and energy consumption in advance. The goal is to support developers in performance-oriented planning and development of energy-efficient, secure IoT applications."
     },
     {
         "title": "Privacy-Preserving Training and Inference of CNNs: A Medical Performance Case Study",
@@ -61,7 +61,7 @@ export const publications = [
         "journal": "2025 5th Intelligent Cybersecurity Conference (ICSC)",
         "time": "May 2025",
         "link": "https://doi.org/10.1109/ICSC65596.2025.11140461",
-        "abstract": ""
+        "abstract": "Artificial intelligence is on the rise, with new models and new applications emerging almost every day. However, this often happens at the expense of data privacy. Highly sensitive data is commonly required for applications used in critical areas such as healthcare and finance. One approach to bridging the gap between AI and data privacy is multi-party computation. It enables privacy-preserving machine learning by allowing multiple parties to compute a joint function while keeping their own portion of the dataset private. In this paper, we implement a simple convolutional neural network (CNN) for binary medical X-ray image classification and compare the performance differences between the secure variant with MPC and the classical insecure approach. The results show that the overall classification performance is similar. However, the privacy gained through MPC comes at the cost of three to four orders of magnitude longer runtimes. In addition, careful consideration must be given to choosing the right cryptographic parameters to keep computation within an acceptable time window. Since inference only takes approximately four minutes, using MPC is reasonable considering the large gain in privacy, especially in these sensitive environments."
     },
     {
         "title": "Quo Vadis CKKS: Comparison of the realization of basic mathematical functions for the homomorphic cryptosystem CKKS using De Bello and polynomial approximations",
@@ -69,7 +69,7 @@ export const publications = [
         "journal": "Journal of Information Security and Applications",
         "time": "September 2025",
         "link": "https://doi.org/10.1016/j.jisa.2025.104110",
-        "abstract": ""
+        "abstract": "As data storage and processing increasingly shift to the cloud, the risk of data breaches also rises. One way to address this is using Homomorphic Encryption (HE), which allows for data processing while the data remains encrypted, unlike traditional methods. However, current HE libraries support only addition and multiplication, requiring users to implement other mathematical functions themselves. To this end, we developed and analyzed basic mathematical functions in a previous work. Since polynomial approximations are more common in HE, this paper expands on that by examining and comparing polynomial approximations of these functions with the previously implemented methods. Our findings indicate that while polynomial approximations offer the benefit of low multiplication depth, the previously implemented methods generally outperform them in most scenarios despite their higher computational cost."
     },
     {
         "title": "Security Analysis of a Decentralized, Revocable and Verifiable Attribute-Based Encryption Scheme",
@@ -77,7 +77,7 @@ export const publications = [
         "journal": "Proceedings of the 19th International Conference on Availability, Reliability and Security",
         "time": "July 2024",
         "link": "https://doi.org/10.1145/3664476.3664487",
-        "abstract": ""
+        "abstract": "In recent years, digital services have experienced significant growth, exemplified by platforms like Netflix achieving unprecedented revenue levels. Some of these services employ subscription models, with certain content requiring additional payments or offering third-party products. To ensure the widespread availability of diverse digital services anytime and anywhere, providers must have control over content accessibility. To address the multifaceted challenges in this domain, one promising solution is the adoption of attribute-based encryption (ABE). Over the years, various approaches have been proposed in the literature, offering a wide range of features. In a prior study [18], we assessed the security of one of these proposed approaches and identified one that did not meet its promised security standards. In this research we focuses on conducting a security analysis for another ABE scheme to pinpoint its shortcomings and emphasize the critical importance of evaluating the safety and effectiveness of newly proposed schemes. Specifically, we uncover an attack vector within this ABE scheme, which enables malicious users to decrypt content without the required permissions or attributes. Furthermore, we propose a solution to rectify this identified vulnerability."
     },
     {
         "title": "Benchmarking of Secure Group Communication schemes with focus on IoT",
@@ -109,6 +109,6 @@ export const publications = [
         "journal": "Information Security Practice and Experience",
         "time": "2023",
         "link": "https://doi.org/10.1007/978-981-99-7032-2_17",
-        "abstract": ""
+        "abstract": "In recent years, the trend has increasingly been to store and process data in the cloud. However, this is based on the premise that cloud providers treat the data in a trustworthy manner. One way of using the data in the cloud without the provider having access to it is homomorphic encryption. However, since this encryption has only recently become practicable, analysis of its for practical applications is still in its infancy. Therefore, we investigate the performance of homomorphic encryption using a real-world application, namely linear regression. Our main finding is that although the homomorphic computation of linear regression is in the range of minutes and thus slower than in the non-homomorphic case, linear regression can be computed homomorphic and is therefore suitable for use cases where data security is the top priority."
     }
 ];

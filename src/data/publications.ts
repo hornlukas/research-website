@@ -12,7 +12,7 @@ export const publications = [
         "authors": "Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev",
         "journal": "SSP 2026",
         "time": "November 2026",
-        "link": "",
+        "link": "https://doi.org/10.5281/zenodo.23089465",
         "abstract": ""
     },
     {
@@ -20,7 +20,7 @@ export const publications = [
         "authors": "Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev",
         "journal": "WAHC 2026",
         "time": "November 2026",
-        "link": "",
+        "link": "https://doi.org/10.1145/3847161.3858426",
         "abstract": ""
     },
     {

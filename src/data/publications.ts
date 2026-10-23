@@ -24,6 +24,14 @@ export const publications = [
         "abstract": ""
     },
     {
+        "title": "De Pace: Optimizing initial guesses for homomorphic reciprocal and square root evaluation with CKKS",
+        "authors": "Simon Engel, Lukas Horn, Thomas Prantl, Samuel Kounev",
+        "journal": "Discover Artificial Intelligence",
+        "time": "October 2026",
+        "link": "https://doi.org/10.1007/s44163-026-02443-1",
+        "abstract": "Homomorphic encryption allows computation on encrypted data, making it a promising technology for privacy-preserving machine learning. However, currently available fully homomorphic schemes, such as CKKS, only support addition and multiplication by default. Modern applications, such as neural networks, require more complex functions, such as division and square root. This raises a performance question for CKKS: What is the most efficient way to implement division and square root using only addition and multiplication? For CKKS, additional constraints apply: commonly used methods, such as comparisons and bit shifts, are no longer permitted, rendering most existing literature unusable. Our work addresses this challenge by analyzing and improving the performance of the method best suited for homomorphic computation of division and square root: the Newton–Raphson method. Since the primary degree of freedom in Newton–Raphson is the initial value, we formulate the determination of the parameters for a suitable linear helper function as a black-box optimization problem and analyze how different approaches to choosing these parameters affect the performance of homomorphic square root and division computation. Specifically, we evaluate four selection methods: (1) brute-force, (2) simulated annealing, (3) hill climbing, and (4) gradient descent. Our results show that the best optimization method finds parameters with lower RMSE and lower multiplicative depth than brute-force search, while reducing parameter generation time by multiple orders of magnitude. Our contribution is the problem formulation and its systematic evaluation over 603 000 configurations, providing a practical reference on the accuracy and multiplicative depth that can be expected for a given interval and number of Newton iterations."
+    },
+    {
         "title": "Laying the Foundation for Homomorphic Training of Neural Networks",
         "authors": "Lukas Johannes Horn",
         "journal": "BestMasters",

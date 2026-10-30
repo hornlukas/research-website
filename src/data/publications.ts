@@ -8,19 +8,19 @@ export const publications = [
         "abstract": "The ever-increasing pace of digitalization, with its collection of data and the training of artificial intelligence on this data, is bringing the topic of privacy-preserving computing more and more into focus. One promising technology for implementing the privacy-preserving computing paradigm is homomorphic encryption, which has been driven forward in recent years and still holds great potential for improvement in the future. The training of future computer scientists in this field is therefore of crucial importance in order to put this key technology into practice in the future. However, to the best of the authors’ knowledge, there is currently no course that provides students with insights into the theoretical foundations of homomorphic encryption and teaches the practical applicability and extensibility of existing homomorphic cryptosystems. To close this gap, we present our own lecture in this paper, which focuses on the combination of theory and application of homomorphic encryption. We created our lecture material according to the Design-Based Research principle. We held and evaluated our lecture at three German universities. Our lecture evaluations have shown that we have been able to create suitable lecture material on homomorphic encryption and its application, which we would like to share with other lecturers."
     },
     {
+        "title": "Classification in the dark: Performance insights and novel methods for homomorphic binary networks",
+        "authors": "Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev",
+        "journal": "Proceedings of the 14th Workshop on Encrypted Computing \\& Applied Homomorphic Cryptography",
+        "time": "November 2026",
+        "link": "https://doi.org/10.1145/3847161.3858426",
+        "abstract": ""
+    },
+    {
         "title": "Cooking in the dark: Performance evaluation of matrix-vector operations in neural networks under homomorphic encryption",
         "authors": "Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev",
         "journal": "SSP 2026",
         "time": "November 2026",
         "link": "https://doi.org/10.5281/zenodo.23089465",
-        "abstract": ""
-    },
-    {
-        "title": "Classification in the dark: Performance insights and novel methods for homomorphic binary networks",
-        "authors": "Lukas Horn, Lennart Svoboda, Simon Engel, Thomas Prantl, Samuel Kounev",
-        "journal": "WAHC 2026",
-        "time": "November 2026",
-        "link": "https://doi.org/10.1145/3847161.3858426",
         "abstract": ""
     },
     {
@@ -36,7 +36,7 @@ export const publications = [
         "authors": "Lukas Johannes Horn",
         "journal": "BestMasters",
         "time": "October 2026",
-        "link": "",
+        "link": "https://doi.org/10.1007/978-3-658-52915-4",
         "abstract": "As Artificial Intelligence becomes increasingly integrated into modern technology, the tension between data utility and individual privacy intensifies. Privacy-Preserving Machine Learning (PPML) addresses this conflict by utilizing techniques such as Homomorphic Encryption (HE), which enables computation on encrypted data. However, implementing HE in neural networks necessitates the use of functional approximations for complex non-linear operations, introducing errors that may affect model performance. This book investigates the impact of these approximations through a novel simulation framework. By evaluating various network architectures—including Multi-Layer Perceptrons and Convolutional Neural Networks—across multiple datasets, the author analyses the effects of Taylor series, Newton-Raphson, and Chebyshev polynomial approximations, alongside realistic Gaussian noise. The findings reveal that neural networks are inherently resilient to these errors, often maintaining or even improving baseline accuracy. By establishing the necessary precision levels for common activation functions, this work demonstrates the feasibility of efficient homomorphic training, marking a vital advancement for secure and private machine learning."
     },
     {
@@ -64,20 +64,20 @@ export const publications = [
         "abstract": "The planning of IoT applications requires consideration of the performance, energy consumption, and security of resource-constrained devices. In particular, n-to-n communication patterns and security mechanisms significantly affect the runtime, energy consumption, and reliability of IoT systems. In this article, we summarize our previous work on the performance and security analysis of secure group communication and attribute-based encryption methods, as well as on the evaluation of publish/subscribe brokers. Based on measurements on real-world IoT hardware, we outline an approach for modeling and combining individual IoT operations to estimate time and energy consumption in advance. The goal is to support developers in performance-oriented planning and development of energy-efficient, secure IoT applications."
     },
     {
-        "title": "Privacy-Preserving Training and Inference of CNNs: A Medical Performance Case Study",
-        "authors": "Thomas Prantl, Louis Schneider, Simon Engel, Lukas Horn, Vanessa Borst, Christian Krupitzer, Samuel Kounev, Rafael I. Bonilla",
-        "journal": "2025 5th Intelligent Cybersecurity Conference (ICSC)",
-        "time": "May 2025",
-        "link": "https://doi.org/10.1109/ICSC65596.2025.11140461",
-        "abstract": "Artificial intelligence is on the rise, with new models and new applications emerging almost every day. However, this often happens at the expense of data privacy. Highly sensitive data is commonly required for applications used in critical areas such as healthcare and finance. One approach to bridging the gap between AI and data privacy is multi-party computation. It enables privacy-preserving machine learning by allowing multiple parties to compute a joint function while keeping their own portion of the dataset private. In this paper, we implement a simple convolutional neural network (CNN) for binary medical X-ray image classification and compare the performance differences between the secure variant with MPC and the classical insecure approach. The results show that the overall classification performance is similar. However, the privacy gained through MPC comes at the cost of three to four orders of magnitude longer runtimes. In addition, careful consideration must be given to choosing the right cryptographic parameters to keep computation within an acceptable time window. Since inference only takes approximately four minutes, using MPC is reasonable considering the large gain in privacy, especially in these sensitive environments."
-    },
-    {
         "title": "Quo Vadis CKKS: Comparison of the realization of basic mathematical functions for the homomorphic cryptosystem CKKS using De Bello and polynomial approximations",
         "authors": "Thomas Prantl, Lukas Horn, Simon Engel, André Bauer, Samuel Kounev",
         "journal": "Journal of Information Security and Applications",
         "time": "September 2025",
         "link": "https://doi.org/10.1016/j.jisa.2025.104110",
         "abstract": "As data storage and processing increasingly shift to the cloud, the risk of data breaches also rises. One way to address this is using Homomorphic Encryption (HE), which allows for data processing while the data remains encrypted, unlike traditional methods. However, current HE libraries support only addition and multiplication, requiring users to implement other mathematical functions themselves. To this end, we developed and analyzed basic mathematical functions in a previous work. Since polynomial approximations are more common in HE, this paper expands on that by examining and comparing polynomial approximations of these functions with the previously implemented methods. Our findings indicate that while polynomial approximations offer the benefit of low multiplication depth, the previously implemented methods generally outperform them in most scenarios despite their higher computational cost."
+    },
+    {
+        "title": "Privacy-Preserving Training and Inference of CNNs: A Medical Performance Case Study",
+        "authors": "Thomas Prantl, Louis Schneider, Simon Engel, Lukas Horn, Vanessa Borst, Christian Krupitzer, Samuel Kounev, Rafael I. Bonilla",
+        "journal": "2025 5th Intelligent Cybersecurity Conference (ICSC)",
+        "time": "May 2025",
+        "link": "https://doi.org/10.1109/ICSC65596.2025.11140461",
+        "abstract": "Artificial intelligence is on the rise, with new models and new applications emerging almost every day. However, this often happens at the expense of data privacy. Highly sensitive data is commonly required for applications used in critical areas such as healthcare and finance. One approach to bridging the gap between AI and data privacy is multi-party computation. It enables privacy-preserving machine learning by allowing multiple parties to compute a joint function while keeping their own portion of the dataset private. In this paper, we implement a simple convolutional neural network (CNN) for binary medical X-ray image classification and compare the performance differences between the secure variant with MPC and the classical insecure approach. The results show that the overall classification performance is similar. However, the privacy gained through MPC comes at the cost of three to four orders of magnitude longer runtimes. In addition, careful consideration must be given to choosing the right cryptographic parameters to keep computation within an acceptable time window. Since inference only takes approximately four minutes, using MPC is reasonable considering the large gain in privacy, especially in these sensitive environments."
     },
     {
         "title": "Security Analysis of a Decentralized, Revocable and Verifiable Attribute-Based Encryption Scheme",
@@ -105,11 +105,11 @@ export const publications = [
     },
     {
         "title": "Towards a cryptography encyclopedia: a survey on attribute-based encryption",
-        "authors": "Thomas Prantl, Timo Zeck, Lukas Horn, Lukas Iffländer, André Bauer, Alexandra Dmitrienko, Christian Krupitzer, Samuel Kounev",
+        "authors": "Thomas Prantl, Timo Zeck, Lukas Horn, Lukas Ffländer, André Bauer, Lexandra Dmitrienko, Christian Krupitzer, Samuel Kounev",
         "journal": "Journal of Surveillance, Security and Safety",
         "time": "December 2023",
         "link": "https://doi.org/10.20517/jsss.2023.30",
-        "abstract": "Access control, a key feature of digital business models, such as streaming, relies on the implementation of encryption schemes. The diverse use of encryption schemes has led to the development of schemes with a variety of properties. This variety and a lack of comprehensive overview make it difficult for developers to select an appropriate scheme. To bridge this gap, we envision a cryptography encyclopedia. In this survey, we create a sub-encyclopedia for attribute-based encryption (ABE) schemes. More specifically, we provide an overview of relevant features and performance metrics and a taxonomy for ABE schemes. We also perform a performance and feature evaluation of 42 ABE schemes and apply our proposed topology to these approaches. \\%The content related to Section in the body of this document is not displayed in the PDF. Please confirm the addition of Section numbers or paragraph names."
+        "abstract": "Access control, a key feature of digital business models, such as streaming, relies on the implementation of encryption schemes. The diverse use of encryption schemes has led to the development of schemes with a variety of properties. This variety and a lack of comprehensive overview make it difficult for developers to select an appropriate scheme. To bridge this gap, we envision a cryptography encyclopedia. In this survey, we create a sub-encyclopedia for attribute-based encryption (ABE) schemes. More specifically, we provide an overview of relevant features and performance metrics and a taxonomy for ABE schemes. We also perform a performance and feature evaluation of 42 ABE schemes and apply our proposed topology to these approaches."
     },
     {
         "title": "Performance Impact Analysis of Homomorphic Encryption: A Case Study Using Linear Regression as an Example",
